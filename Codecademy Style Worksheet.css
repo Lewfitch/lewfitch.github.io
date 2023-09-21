@@ -1,0 +1,143 @@
+
+#banner {
+  background-color: white;
+  padding: 20px;
+}
+#banner h1 {
+  padding-left: 20px;
+  text-align: center;
+  font-style: bold;
+}
+.content {
+  border: 3px solid grey;
+  margin: 20px;
+  padding: 15px;
+}
+.header {
+  padding-left: 10px;
+  font-size: 30px;
+  text-align:center;
+}
+.content ul {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+#list li{
+  font-size: 15px;
+  display: inline-block;
+  width: 160px;
+  margin: 5px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* Colors section */
+
+#first-box {
+  background-color: white;
+}
+#yellow {
+  background-color: #fcba03;
+}
+#pink {
+  background-color: #f79cee;
+}
+#green {
+  background-color: #4fe0b0;
+}
+#blue {
+  background-color: #132357;
+  color: white;
+}
+
+/* Fonts section */
+
+#second-box {
+  background-color: white;
+}
+.fonts {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+
+
+/*Roboto style*/
+#roboto-font {
+  font-family: 'Roboto', sans-serif;
+} 
+#roboto-size1 {
+  font-size: 400;
+}
+#roboto-size2 {
+  font-size: 700;
+  font-weight: bold;
+  font-style: italic;
+}
+#roboto-size3 {
+  font-size: 700;
+}
+
+
+/*Inclusive Sans style*/
+#inclusivesans-font {
+  font-family: 'Inclusive Sans', sans-serif;
+} 
+#inclusivesans-size1 {
+  font-size: 400;
+}
+#inclusivesans-size2 {
+  font-size: 500;
+  font-weight: bold;
+  font-style: italic;
+}
+#inclusivesans-size3 {
+  font-size: 600;
+}
+
+
+/*Poppins style*/
+#poppins-font {
+  font-family: 'poppins', sans-serif;
+} 
+#poppins-size1 {
+  font-size: 300;
+}
+#poppins-size2 {
+  font-size: 600;
+  font-weight: bold;
+  font-style: italic;
+}
+#poppins-size3 {
+  font-size: 600;
+}
+
+/*Text-Styles Section*/
+
+#third-box {
+  background-color: white;
+}
+.text {
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+.text ul {
+  padding-left: 10px;
+  text-align: left;
+}
+
+@media only screen and (min-width: 1000px) {
+  #list li {
+  width: 30%;
+}
+  .fonts {
+  width: 30%;
+  font-size: 25px;
+}
+  .text {
+  font-size: 20px;
+}
+}
